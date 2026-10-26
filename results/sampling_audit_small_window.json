@@ -1,0 +1,210 @@
+{
+  "profile": "standard",
+  "config": {
+    "fiber_steps": 2400,
+    "seeds": [
+      7,
+      19,
+      31
+    ],
+    "pinn_steps": 3000,
+    "lbfgs_steps": 40,
+    "mc_trials": 150,
+    "optimizer_iterations": 65,
+    "phase_iterations": 250
+  },
+  "runs": [
+    {
+      "seed": 7,
+      "planes": 1,
+      "peak_photons": 10000,
+      "phase_rmse_rad": 0.020023815228706318,
+      "held_out_intensity_relative_error": 0.012077799895571657,
+      "last_pre_update_residual": 0.00017995203875932278
+    },
+    {
+      "seed": 7,
+      "planes": 3,
+      "peak_photons": 10000,
+      "phase_rmse_rad": 0.009714015151994288,
+      "held_out_intensity_relative_error": 0.0063601232052522706,
+      "last_pre_update_residual": 0.00023667819841674713
+    },
+    {
+      "seed": 7,
+      "planes": 1,
+      "peak_photons": 1000,
+      "phase_rmse_rad": 0.06617012568766156,
+      "held_out_intensity_relative_error": 0.040006560974713605,
+      "last_pre_update_residual": 0.0020454413270132345
+    },
+    {
+      "seed": 7,
+      "planes": 3,
+      "peak_photons": 1000,
+      "phase_rmse_rad": 0.03207027117296854,
+      "held_out_intensity_relative_error": 0.020443917982621077,
+      "last_pre_update_residual": 0.0026081071537884457
+    },
+    {
+      "seed": 19,
+      "planes": 1,
+      "peak_photons": 10000,
+      "phase_rmse_rad": 0.01882803868391494,
+      "held_out_intensity_relative_error": 0.011955124492770542,
+      "last_pre_update_residual": 0.00018806128457773798
+    },
+    {
+      "seed": 19,
+      "planes": 3,
+      "peak_photons": 10000,
+      "phase_rmse_rad": 0.009983325738144491,
+      "held_out_intensity_relative_error": 0.006339329601003688,
+      "last_pre_update_residual": 0.00024116589858544021
+    },
+    {
+      "seed": 19,
+      "planes": 1,
+      "peak_photons": 1000,
+      "phase_rmse_rad": 0.06834847283616768,
+      "held_out_intensity_relative_error": 0.04279272404166399,
+      "last_pre_update_residual": 0.002171266716537212
+    },
+    {
+      "seed": 19,
+      "planes": 3,
+      "peak_photons": 1000,
+      "phase_rmse_rad": 0.03333269306218215,
+      "held_out_intensity_relative_error": 0.02075781850801351,
+      "last_pre_update_residual": 0.002636801298869919
+    },
+    {
+      "seed": 31,
+      "planes": 1,
+      "peak_photons": 10000,
+      "phase_rmse_rad": 0.019417827358497626,
+      "held_out_intensity_relative_error": 0.012043783055574643,
+      "last_pre_update_residual": 0.00018348004334500467
+    },
+    {
+      "seed": 31,
+      "planes": 3,
+      "peak_photons": 10000,
+      "phase_rmse_rad": 0.009734543300672928,
+      "held_out_intensity_relative_error": 0.006350600019311434,
+      "last_pre_update_residual": 0.0002374971457329852
+    },
+    {
+      "seed": 31,
+      "planes": 1,
+      "peak_photons": 1000,
+      "phase_rmse_rad": 0.06803329710042717,
+      "held_out_intensity_relative_error": 0.04295535264377845,
+      "last_pre_update_residual": 0.0020837993235314186
+    },
+    {
+      "seed": 31,
+      "planes": 3,
+      "peak_photons": 1000,
+      "phase_rmse_rad": 0.03394145597628529,
+      "held_out_intensity_relative_error": 0.02137965117596864,
+      "last_pre_update_residual": 0.002615537314756984
+    }
+  ],
+  "summary": [
+    {
+      "peak_photons": 10000,
+      "planes": 1,
+      "phase": {
+        "n": 3,
+        "mean": 0.019423227090372964,
+        "std": 0.000597906559670109,
+        "minimum": 0.01882803868391494,
+        "maximum": 0.020023815228706318
+      },
+      "held_out_intensity": {
+        "n": 3,
+        "mean": 0.01202556914797228,
+        "std": 6.333343063275874e-05,
+        "minimum": 0.011955124492770542,
+        "maximum": 0.012077799895571657
+      }
+    },
+    {
+      "peak_photons": 10000,
+      "planes": 3,
+      "phase": {
+        "n": 3,
+        "mean": 0.009810628063603902,
+        "std": 0.00014991236211813375,
+        "minimum": 0.009714015151994288,
+        "maximum": 0.009983325738144491
+      },
+      "held_out_intensity": {
+        "n": 3,
+        "mean": 0.006350017608522464,
+        "std": 1.0409029549242225e-05,
+        "minimum": 0.006339329601003688,
+        "maximum": 0.0063601232052522706
+      }
+    },
+    {
+      "peak_photons": 1000,
+      "planes": 1,
+      "phase": {
+        "n": 3,
+        "mean": 0.0675172985414188,
+        "std": 0.001177280747963382,
+        "minimum": 0.06617012568766156,
+        "maximum": 0.06834847283616768
+      },
+      "held_out_intensity": {
+        "n": 3,
+        "mean": 0.04191821255338535,
+        "std": 0.0016575345650197014,
+        "minimum": 0.040006560974713605,
+        "maximum": 0.04295535264377845
+      }
+    },
+    {
+      "peak_photons": 1000,
+      "planes": 3,
+      "phase": {
+        "n": 3,
+        "mean": 0.03311480673714532,
+        "std": 0.0009544312337824171,
+        "minimum": 0.03207027117296854,
+        "maximum": 0.03394145597628529
+      },
+      "held_out_intensity": {
+        "n": 3,
+        "mean": 0.02086046255553441,
+        "std": 0.00047623628867581106,
+        "minimum": 0.020443917982621077,
+        "maximum": 0.02137965117596864
+      }
+    }
+  ],
+  "wavelength_mismatch": [
+    {
+      "wavelength_scale": 0.99,
+      "phase_rmse_rad": 0.06459337459062077,
+      "held_out_intensity_error": 0.0691293641082201
+    },
+    {
+      "wavelength_scale": 1.0,
+      "phase_rmse_rad": 6.659836622065281e-11,
+      "held_out_intensity_error": 3.2085030168605196e-11
+    },
+    {
+      "wavelength_scale": 1.01,
+      "phase_rmse_rad": 0.055669768679648346,
+      "held_out_intensity_error": 0.07213806578487532
+    }
+  ],
+  "held_out_distance_m": 0.07,
+  "padding_intensity_discrepancy": 0.10398938833079711,
+  "half_pitch_intensity_discrepancy": 0.040777076929801565,
+  "sampling_note": "Hard aperture boundary changes sampling; these discrepancies are sensitivity measurements, not certified error bounds.",
+  "noise_note": "Each seed changes both Poisson data and starting phase; error bars mix both sources, not independent estimates of each."
+}

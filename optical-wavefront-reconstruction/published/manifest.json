@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "data": "synthetic",
+  "files": {
+    "results/advanced_data.npz": "d68673bce7ab4fdb4962261f294602b265071a241a41cb40b3562985e6f8720f",
+    "results/advanced_metrics.json": "d6a88e8c9ff4179cbd4ea37dcd032a548de7554f56fb418bcbcc00e02985239d",
+    "results/convergence.png": "14996f2b862e5b38bfd1328912512f389b8653b1b5a99a7ab7617a94d2fe2a4f",
+    "results/metrics.json": "fe2433e8f8ee1689f47e7859f4d1390d98fe0f757160c563b6ccba278f7df624",
+    "results/noise_comparison.png": "3d1041597c14086cbf7190ae2592e68978aa3777d11b37a546d11416cc5cb4c6",
+    "results/noisy_reconstruction.png": "0b232d99f79b2dd000ab21198def154b5b13b2888dbf0e686b4b69ec98c957b0",
+    "results/phase_reconstruction.png": "e61b1526187ac969d67aceda1962e331d02f3a4707bf507cced7d0d1dc32d9f9",
+    "results/robustness.png": "1d4377b51aae2c47613e4b702b92ca538cc62382de1aca57b0f54aed7f6f6386",
+    "results/run_config.json": "551180afa5fd3d8011e01a86d15dee93818064e833d6606abcd4c51392bc16b1",
+    "results/sampling_audit_small_window.json": "2dbe90c717c48df93d1214a29f079f755c232f36c6a27c62b581051a6069f1ce",
+    "results/study_data.npz": "c9c602f73c1833cd5446e8619ca6965b8c1066440fc3ccab8900d74cf85329bf"
+  }
+}

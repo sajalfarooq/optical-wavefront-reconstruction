@@ -1,0 +1,70 @@
+{
+  "data_source": "synthetic simulation; no experimental measurements",
+  "python": "3.12.10",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "torch": "2.14.1"
+  },
+  "seed": 7,
+  "grid": [
+    96,
+    96
+  ],
+  "pixel_pitch_m": 8e-06,
+  "wavelength_m": 5.32e-07,
+  "distances_m": [
+    0.025,
+    0.055,
+    0.085
+  ],
+  "iterations": 250,
+  "noise_and_plane_study": [
+    {
+      "peak_expected_photons": null,
+      "planes": 1,
+      "phase_rmse_rad": 0.0013055382116735764,
+      "initial_amplitude_loss": 0.023878441856035867,
+      "final_amplitude_loss": 2.4832735447302618e-08
+    },
+    {
+      "peak_expected_photons": null,
+      "planes": 3,
+      "phase_rmse_rad": 6.659836622065281e-11,
+      "initial_amplitude_loss": 0.04770958961760421,
+      "final_amplitude_loss": 3.582958754513919e-22
+    },
+    {
+      "peak_expected_photons": 10000,
+      "planes": 1,
+      "phase_rmse_rad": 0.020023815228706318,
+      "initial_amplitude_loss": 0.02418305890828679,
+      "final_amplitude_loss": 0.00017995203875932278
+    },
+    {
+      "peak_expected_photons": 10000,
+      "planes": 3,
+      "phase_rmse_rad": 0.009714015151994288,
+      "initial_amplitude_loss": 0.04789965670755716,
+      "final_amplitude_loss": 0.00023667819841674713
+    },
+    {
+      "peak_expected_photons": 1000,
+      "planes": 1,
+      "phase_rmse_rad": 0.06617012568766156,
+      "initial_amplitude_loss": 0.02757990406419726,
+      "final_amplitude_loss": 0.0020454413270132345
+    },
+    {
+      "peak_expected_photons": 1000,
+      "planes": 3,
+      "phase_rmse_rad": 0.03207027117296854,
+      "initial_amplitude_loss": 0.05093708501576547,
+      "final_amplitude_loss": 0.0026081071537884457
+    }
+  ],
+  "assumptions": "known object amplitude, scalar paraxial periodic propagation",
+  "phase_metric": "wrapped RMS after removing global piston on amplitude > 0.2",
+  "uncertainty": "one noise realization and initialization per setting; no global uniqueness claim"
+}
